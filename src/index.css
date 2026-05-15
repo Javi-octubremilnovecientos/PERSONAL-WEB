@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap');
+@import "tailwindcss";
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
+  --color-surface-bright: #fbf9f2;
+  --color-terminal-black: #000000;
+  --color-infrastructure-orange: #EA580C;
+  --color-paper-off-white: #F2F1EA;
+  --color-surface-container: #efeee7;
+  --color-surface-container-low: #f5f4ed;
+  --color-on-surface-variant: #4c4546;
+  --color-outline-variant: #cfc4c5;
+}
+
+@layer base {
+  :root {
+    --bg-color: var(--color-paper-off-white);
+    --text-color: var(--color-terminal-black);
+    --border-color: var(--color-terminal-black);
+    --grid-color: #D1D0C8;
+  }
+  
+  :root.dark {
+    --bg-color: var(--color-terminal-black);
+    --text-color: var(--color-surface-bright);
+    --border-color: var(--color-surface-bright);
+    --grid-color: rgba(251, 249, 242, 0.15);
+  }
+
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    background-image: radial-gradient(var(--grid-color) 1px, transparent 1px);
+    background-size: 24px 24px;
+    font-family: var(--font-mono);
+    @apply transition-colors duration-300 antialiased;
+  }
+}
+
+@layer utilities {
+  .brutalist-border {
+    border: 1px solid var(--border-color);
+  }
+  .brutalist-border-t {
+    border-top: 1px solid var(--border-color);
+  }
+  .brutalist-border-b {
+    border-bottom: 1px solid var(--border-color);
+  }
+  .brutalist-border-l {
+    border-left: 1px solid var(--border-color);
+  }
+  .brutalist-border-r {
+    border-right: 1px solid var(--border-color);
+  }
+}
+
+@utility font-display-lg {
+  font-size: 84px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+}
+@utility font-display-lg-mobile {
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+}
+@utility font-headline-sm {
+  font-size: 19px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+@utility font-headline-lg {
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+@utility font-headline-md {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+@utility font-body-lg {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+@utility font-body-md {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+@utility font-label-caps {
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+@utility font-code-sm {
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 400;
+}

@@ -1,0 +1,27 @@
+import React from 'react';
+
+export default function Footer() {
+  return (
+    <footer className="hidden md:flex flex-col md:flex-row justify-between items-center px-12 py-8 gap-4 bg-surface-bright dark:bg-terminal-black border-t-2 border-terminal-black dark:border-surface-bright w-full mt-20">
+      <div className="font-label-caps text-infrastructure-orange">
+        JAVIER.LOMBARDERO
+      </div>
+      
+      <div className="flex gap-6">
+        {['GITHUB', 'LINKEDIN', 'STACK_OVERFLOW', 'RESUME'].map((link) => (
+          <a 
+            key={link} 
+            href="#" 
+            className="font-code-sm uppercase tracking-widest text-terminal-black/60 dark:text-surface-bright/60 hover:text-infrastructure-orange dark:hover:text-infrastructure-orange underline decoration-[1.5px] cursor-crosshair transition-colors"
+          >
+            {link}
+          </a>
+        ))}
+      </div>
+      
+      <div className="font-code-sm uppercase tracking-widest text-terminal-black dark:text-surface-bright">
+        © 2024 LOMBARDERO INFRASTRUCTURE. ALL_SYSTEMS_OPERATIONAL.
+      </div>
+    </footer>
+  );
+}
