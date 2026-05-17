@@ -8,7 +8,7 @@ export default function Navbar() {
   const mode = useSelector((state: RootState) => state.theme.mode);
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 grid grid-cols-2 sm:grid-cols-3 items-center px-4 md:px-12 h-20 bg-surface-bright/80 dark:bg-terminal-black/80 backdrop-blur-sm brutalist-border-b">
+    <header className="fixed top-0 left-0 w-full z-50 grid grid-cols-2 sm:grid-cols-3 items-center px-4 md:px-12 h-20 bg-surface-bright/80 dark:bg-terminal-black/80  brutalist-border-b">
       <div className="hidden sm:block"></div>
       <div className="flex items-center justify-start sm:justify-center gap-2">
         <CommandLineIcon className="hidden lg:block w-6 h-6 text-terminal-black dark:text-surface-bright" />

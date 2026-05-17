@@ -4,7 +4,7 @@ import SectionHeader from './SectionHeader';
 export default function Experience() {
   return (
     <section className="space-y-6">
-      <SectionHeader id="003" title="EXECUTION_LOG" />
+      <SectionHeader id="004" title="EXECUTION_LOG" />
       
       <div className="brutalist-border bg-surface-bright dark:bg-terminal-black p-4 md:p-8 relative">
         {/* Vertical Line */}
@@ -18,12 +18,12 @@ export default function Experience() {
             </div>
             <div className="flex-grow border-b border-dashed border-terminal-black/30 dark:border-surface-bright/30 pb-6">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-2 gap-2">
-                <h3 className="font-headline-md font-bold uppercase">Senior Frontend Engineer</h3>
-                <span className="font-code-sm text-terminal-black/80 dark:text-surface-bright/80 bg-terminal-black/5 dark:bg-surface-bright/10 px-2 py-1 brutalist-border inline-block self-start">2021 - PRESENT</span>
+                <h3 className="font-headline-md font-bold uppercase">Junior Front-End Developer · UX/UI Designer</h3>
+                <span className="font-code-sm text-terminal-black/80 dark:text-surface-bright/80 bg-terminal-black/5 dark:bg-surface-bright/10 px-2 py-1 brutalist-border inline-block self-start">FEB 2025 - APR 2026</span>
               </div>
-              <div className="font-code-sm uppercase mb-4 text-terminal-black/80 dark:text-surface-bright/80">TECH_CORP.INC // REMOTE</div>
+              <div className="font-code-sm uppercase mb-4 text-terminal-black/80 dark:text-surface-bright/80">DXC TECHNOLOGY</div>
               <p className="font-body-md text-terminal-black/80 dark:text-surface-bright/80">
-                Architected the core frontend infrastructure for a suite of enterprise data management tools. Reduced initial load time by 40% through aggressive code-splitting and asset optimization. Led migration from legacy SPA to a modern micro-frontend architecture.
+                Front-End Web Development. UI design in Figma. React + Vite for component-driven development. Styling with Tailwind CSS and Shadcn UI. Git-based version control with Vercel for continuous deployment. On-page SEO strategies implementation and performance tracking through Google Search Console. RESTful API integration using Axios for seamless backend connectivity.
               </p>
             </div>
           </div>
@@ -35,12 +35,12 @@ export default function Experience() {
             </div>
             <div className="flex-grow border-b border-dashed border-terminal-black/30 dark:border-surface-bright/30 pb-6">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-2 gap-2">
-                <h3 className="font-headline-md font-bold uppercase">UI Developer</h3>
-                <span className="font-code-sm text-terminal-black/80 dark:text-surface-bright/80 bg-terminal-black/5 dark:bg-surface-bright/10 px-2 py-1 brutalist-border inline-block self-start">2018 - 2021</span>
+                <h3 className="font-headline-md font-bold uppercase">Web Designer</h3>
+                <span className="font-code-sm text-terminal-black/80 dark:text-surface-bright/80 bg-terminal-black/5 dark:bg-surface-bright/10 px-2 py-1 brutalist-border inline-block self-start">FEB 2024 - JAN 2025</span>
               </div>
-              <div className="font-code-sm uppercase mb-4 text-terminal-black/80 dark:text-surface-bright/80">STARTUP_SYSTEMS // ONSITE</div>
+              <div className="font-code-sm uppercase mb-4 text-terminal-black/80 dark:text-surface-bright/80">DIGITAL KUBIC</div>
               <p className="font-body-md text-terminal-black/80 dark:text-surface-bright/80">
-                Developed responsive web applications using React and Redux. Built an internal component library adopted by 3 distinct product teams, ensuring brand consistency and accelerating feature delivery.
+                Turn Figma prototypes into live websites using WordPress CMS and Elementor. Kept projects running smoothly through ongoing maintenance and on-page SEO improvements.
               </p>
             </div>
           </div>
@@ -52,12 +52,12 @@ export default function Experience() {
             </div>
             <div className="flex-grow">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-2 gap-2">
-                <h3 className="font-headline-md font-bold uppercase">Frontend Intern</h3>
-                <span className="font-code-sm text-terminal-black/80 dark:text-surface-bright/80 bg-terminal-black/5 dark:bg-surface-bright/10 px-2 py-1 brutalist-border inline-block self-start">2017 - 2018</span>
+                <h3 className="font-headline-md font-bold uppercase">SaaS Developer</h3>
+                <span className="font-code-sm text-terminal-black/80 dark:text-surface-bright/80 bg-terminal-black/5 dark:bg-surface-bright/10 px-2 py-1 brutalist-border inline-block self-start">SEPT 2023 - FEB 2024</span>
               </div>
-              <div className="font-code-sm uppercase mb-4 text-terminal-black/80 dark:text-surface-bright/80">AGENCY.IO // HYBRID</div>
+              <div className="font-code-sm uppercase mb-4 text-terminal-black/80 dark:text-surface-bright/80">FREELANCER</div>
               <p className="font-body-md text-terminal-black/80 dark:text-surface-bright/80">
-                Assisted in the development of client websites using HTML, CSS, and Vanilla JavaScript. Implemented automated testing for critical UI flows.
+                Developed front-end experiences for SaaS and web applications, working directly with clients to translate their needs into clean, functional UX/UI. Followed an API-first approach throughout.
               </p>
             </div>
           </div>

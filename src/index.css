@@ -65,10 +65,10 @@
   font-weight: 700;
 }
 @utility font-display-lg-mobile {
-  font-size: 40px;
+  font-size: 38.2px;
   line-height: 1.1;
-  letter-spacing: -0.04em;
-  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-weight: 600;
 }
 @utility font-headline-sm {
   font-size: 19px;
