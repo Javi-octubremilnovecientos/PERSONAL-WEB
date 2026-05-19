@@ -1,10 +1,16 @@
-import React from 'react';
+import { useTranslation } from '../hooks/useTranslation';
 
 export default function Hero() {
+  const t = useTranslation();
+
+  const scrollTo = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="text-center space-y-8 min-h-[70vh] md:min-h-[80vh] overflow-hidden">
       <h2
-        className="font-display-lg-mobile md:font-display-lg uppercase tracking-widest relative inline-block mx-auto flex justify-center text-transparent bg-clip-text"
+        className="font-display-lg-mobile md:font-display-lg uppercase tracking-widest relative inline-block mx-auto  justify-center text-transparent bg-clip-text"
         style={{
           backgroundImage: 'radial-gradient(circle, var(--text-color) 1px, transparent 1px)',
           backgroundSize: '3px 3px',
@@ -22,9 +28,9 @@ export default function Hero() {
         </div>
 
         <div className="flex flex-col justify-around w-52 h-52 md:w-48 md:h-48 z-10 md:mr-12 bg-surface-bright p-2 brutalist-border text-terminal-black dark:text-surface-bright dark:bg-terminal-black">
-          <div className="px-4 py-1 font-label-caps" style={{cursor:"pointer"}}>BIO</div>
-          <div className="px-4 py-1 font-label-caps" style={{cursor:"pointer"}}>PROJECTS</div>
-          <div className="px-4 py-1 font-label-caps" style={{cursor:"pointer"}}>SKILLS</div>
+          <div className="px-4 py-1 font-label-caps" style={{cursor:"pointer"}} onClick={() => scrollTo('bio')}>{t.hero.bio}</div>
+          <div className="px-4 py-1 font-label-caps" style={{cursor:"pointer"}} onClick={() => scrollTo('projects')}>{t.hero.projects}</div>
+          <div className="px-4 py-1 font-label-caps" style={{cursor:"pointer"}} onClick={() => scrollTo('career')}>{t.hero.experience}</div>
         </div>
 
         <div className="z-10 w-16 h-16 brutalist-border flex items-center justify-center bg-surface-bright dark:bg-terminal-black text-terminal-black dark:text-surface-bright relative">
@@ -33,9 +39,9 @@ export default function Hero() {
         </div>
 
         <div className="flex flex-col justify-around w-52 h-52 md:w-48 md:h-48 z-10 md:ml-12 bg-surface-bright p-2 brutalist-border text-terminal-black dark:text-surface-bright dark:bg-terminal-black">
-          <div className="px-4 py-1 font-label-caps" style={{cursor:"pointer"}}>WORKFLOW</div>
-          <div className="px-4 py-1 font-label-caps" style={{cursor:"pointer"}}>CV</div>
-          <div className="px-4 py-1 font-label-caps" style={{cursor:"pointer"}}>CONTACT</div>
+          <div className="px-4 py-1 font-label-caps" style={{cursor:"pointer"}} onClick={() => scrollTo('workflow')}>{t.hero.workflow}</div>
+          <div className="px-4 py-1 font-label-caps" style={{cursor:"pointer"}} onClick={() => scrollTo('contact')}>{t.hero.cv}</div>
+          <div className="px-4 py-1 font-label-caps" style={{cursor:"pointer"}} onClick={() => scrollTo('contact')}>{t.hero.contact}</div>
         </div>
       </div>
 

@@ -4,7 +4,7 @@ import { store, RootState } from './store';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
-import Metrics from './components/Metrics';
+import Workflow from './components/Workflow';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -33,11 +33,11 @@ export default function App() {
           <Navbar />
           <main className="max-w-7xl mx-auto px-4 md:px-12 py-20 space-y-20">
             <Hero />
-            <Bio/>
-            <Projects />
-            <Metrics />
-            <Experience />
-            <Contact />
+            <div id="bio"><Bio/></div>
+            <div id="projects"><Projects/></div>
+            <div id="career"><Experience/></div>
+            <div id="workflow"><Workflow/></div>
+            <div id="contact"><Contact /></div>
           </main>
           <MobileNav />
           <Footer />

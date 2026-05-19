@@ -1,15 +1,17 @@
-import React from 'react';
 import SectionHeader from './SectionHeader';
+import { useTranslation } from '../hooks/useTranslation';
 
 export default function Experience() {
+  const t = useTranslation();
+
   return (
     <section className="space-y-12">
-      <SectionHeader id="004" title="EXPERIEnce_LOG" />
-      
+      <SectionHeader id="004" title={t.experience.sectionTitle} />
+
       <div className="brutalist-border bg-surface-bright dark:bg-terminal-black p-4 md:p-8 relative">
         {/* Vertical Line */}
         <div className="absolute left-6.75 md:left-10.75 top-8 bottom-8 w-px bg-terminal-black dark:bg-surface-bright hidden sm:block"></div>
-        
+
         <div className="space-y-12">
           {/* Role 1 */}
           <div className="flex gap-4 md:gap-8 relative z-10">
@@ -18,12 +20,12 @@ export default function Experience() {
             </div>
             <div className="grow border-b border-dashed border-terminal-black/30 dark:border-surface-bright/30 pb-6">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-2 gap-2">
-                <h3 className="font-headline-md font-bold uppercase">Junior Front-End Developer · UX/UI Designer</h3>
-                <span className="font-code-sm text-terminal-black/80 dark:text-surface-bright/80 bg-terminal-black/5 dark:bg-surface-bright/10 px-2 py-1 brutalist-border inline-block self-start">FEB 2025 - APR 2026</span>
+                <h3 className="font-headline-md font-bold uppercase">{t.experience.role1Title}</h3>
+                <span className="font-code-sm text-terminal-black/80 dark:text-surface-bright/80 bg-terminal-black/5 dark:bg-surface-bright/10 px-2 py-1 brutalist-border inline-block self-start">{t.experience.role1Date}</span>
               </div>
               <div className="font-code-sm uppercase mb-4 text-terminal-black/80 dark:text-surface-bright/80">DXC TECHNOLOGY</div>
               <p className="font-body-md text-terminal-black/80 dark:text-surface-bright/80">
-                Front-End Web Development. UI design in Figma. React + Vite for component-driven development. Styling with Tailwind CSS and Shadcn UI. Git-based version control with Vercel for continuous deployment. On-page SEO strategies implementation and performance tracking through Google Search Console. RESTful API integration using Axios for seamless backend connectivity.
+                {t.experience.role1Description}
               </p>
             </div>
           </div>
@@ -35,12 +37,12 @@ export default function Experience() {
             </div>
             <div className="grow border-b border-dashed border-terminal-black/30 dark:border-surface-bright/30 pb-6">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-2 gap-2">
-                <h3 className="font-headline-md font-bold uppercase">Web Designer</h3>
-                <span className="font-code-sm text-terminal-black/80 dark:text-surface-bright/80 bg-terminal-black/5 dark:bg-surface-bright/10 px-2 py-1 brutalist-border inline-block self-start">FEB 2024 - JAN 2025</span>
+                <h3 className="font-headline-md font-bold uppercase">{t.experience.role2Title}</h3>
+                <span className="font-code-sm text-terminal-black/80 dark:text-surface-bright/80 bg-terminal-black/5 dark:bg-surface-bright/10 px-2 py-1 brutalist-border inline-block self-start">{t.experience.role2Date}</span>
               </div>
               <div className="font-code-sm uppercase mb-4 text-terminal-black/80 dark:text-surface-bright/80">DIGITAL KUBIC</div>
               <p className="font-body-md text-terminal-black/80 dark:text-surface-bright/80">
-                Turn Figma prototypes into live websites using WordPress CMS and Elementor. Kept projects running smoothly through ongoing maintenance and on-page SEO improvements.
+                {t.experience.role2Description}
               </p>
             </div>
           </div>
@@ -52,12 +54,12 @@ export default function Experience() {
             </div>
             <div className="grow">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-2 gap-2">
-                <h3 className="font-headline-md font-bold uppercase">FRONT-END SaaS Developer</h3>
-                <span className="font-code-sm text-terminal-black/80 dark:text-surface-bright/80 bg-terminal-black/5 dark:bg-surface-bright/10 px-2 py-1 brutalist-border inline-block self-start">SEPT 2023 - FEB 2024</span>
+                <h3 className="font-headline-md font-bold uppercase">{t.experience.role3Title}</h3>
+                <span className="font-code-sm text-terminal-black/80 dark:text-surface-bright/80 bg-terminal-black/5 dark:bg-surface-bright/10 px-2 py-1 brutalist-border inline-block self-start">{t.experience.role3Date}</span>
               </div>
               <div className="font-code-sm uppercase mb-4 text-terminal-black/80 dark:text-surface-bright/80">FREELANCER</div>
               <p className="font-body-md text-terminal-black/80 dark:text-surface-bright/80">
-                Developed front-end experiences for SaaS and web applications, working directly with clients to translate their needs into clean, functional UX/UI. Followed an API-first approach throughout.
+                {t.experience.role3Description}
               </p>
             </div>
           </div>
