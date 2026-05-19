@@ -5,8 +5,12 @@ export default function Metrics() {
   const metrics = [
     { title: 'REACT_ECOSYSTEM', value: '99%', label: 'PROFICIENCY' },
     { title: 'TYPESCRIPT', value: '95%', label: 'TYPE_SAFETY' },
-    { title: 'CSS_ARCHITECTURE', value: '100%', label: 'SCALABILITY' },
-    { title: 'PERF_OPTIMIZATION', value: '<16ms', label: 'FRAME_BUDGET' },
+    { title: 'TAILWIND_CSS', value: '85%', label: 'SCALABILITY' },
+    { title: 'SUPABASE + PostSQL', value: '60%', label: 'BACKEND' },
+    { title: 'ZUSTAND', value: '99%', label: 'STATE_MANAGING' },
+    { title: 'RTK_QUERY', value: '79%', label: 'STATE_MANAGING' },
+    { title: 'TANSTACK-query', value: '99%', label: 'API_CACHING_MANAGING' },
+    { title: 'CLAUDE_ECOSYSTEM', value: '76%', label: 'AI_ASSIST_WORKFLOWS' },
   ];
 
   return (

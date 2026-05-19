@@ -1,11 +1,6 @@
 import { configureStore, createSlice } from '@reduxjs/toolkit';
 
-const getInitialTheme = (): 'dark' | 'light' => {
-  if (typeof window !== 'undefined' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    return 'dark';
-  }
-  return 'dark';
-};
+const getInitialTheme = (): 'dark' | 'light' => 'light';
 
 const themeSlice = createSlice({
   name: 'theme',

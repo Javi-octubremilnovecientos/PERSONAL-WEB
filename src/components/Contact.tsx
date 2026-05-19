@@ -3,11 +3,11 @@ import SectionHeader from './SectionHeader';
 
 export default function Contact() {
   return (
-    <section className="space-y-6">
+    <section className="space-y-12">
       <SectionHeader id="005" title="INIT_CONNECTION" />
       
       <div className="brutalist-border bg-surface-bright dark:bg-terminal-black p-8 text-center space-y-6">
-        <h2 className="font-headline-lg font-bold uppercase">AVAILABLE FOR DEPLOYMENT</h2>
+        <h2 className="font-headline-lg font-bold uppercase">AVAILABLE FOR HIRING</h2>
         <p className="max-w-2xl mx-auto font-code-sm text-terminal-black/80 dark:text-surface-bright/80">
           Currently accepting opportunities for senior frontend roles focusing on infrastructure, developer tooling, or high-performance applications.
         </p>

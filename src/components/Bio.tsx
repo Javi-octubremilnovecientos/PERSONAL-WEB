@@ -67,17 +67,24 @@ export const Bio = () => {
 
             <div className="space-y-4 font-body-md text-terminal-black/80   dark:text-surface-bright/80">
               <p>
-                Front-end developer specializing in high-performance,
-                accessible, and scalable web interfaces. Architecting robust UI
-                systems with a focus on determinism and zero-latency user
-                experiences.
+               Front-end developer specializing in high-performance, accessible, and scalable web interfaces. I architect robust UI systems with a focus on determinism and zero-latency experiences — combining technical precision with a genuine passion for rich, innovative design.
               </p>
               <p>
-                AI assisted develop workflows — particularly Claude Code —
-                to define agents, skills, and development contexts through a
-                Spec-Driven approach.
+              Beyond the code, I'm a collaborative problem-solver who communicates clearly, adapts to fast-moving teams, and maintains a high bar for quality at every stage. I integrate AI-assisted development workflows — particularly Claude Code — to define agents, skills, and development contexts through a Spec-Driven approach.
+             </p>
+             <br />
+             <h4 className="mb-1">EDUCATION:</h4>
+              <p className="underline leading-6 mb-2">
+               Master's Degree in Web Development & UX/UI Design <br/>
+                C.E.I. - 2023
               </p>
-            </div>
+              <p className="leading-5">
+              Core front-end development fundamentals: HTML, CSS, JavaScript, React, and working knowledge of Figma.</p>
+               <p className="underline leading-6 ">
+               Wordpress fundamentals <br/>
+              C.E.I. - 2023
+              </p></div>
+           
 
             <div className="border-t border-surface-bright/30 dark:border-terminal-black/30 pt-4 flex items-center gap-3 font-label-caps">
               <span className="w-2 h-2 bg-infrastructure-orange shrink-0"></span>
