@@ -49,7 +49,7 @@ export default function Projects() {
       image: roof,
       alt: "Tejados Madrid",
       liveUrl: "https://www.tejadosyterrazasmadrid.com/",
-      repoUrl: "https://github.com/Porfolio-Javier-Erlandero/tejados-y-terrazas-madrid",
+      repoUrl: "https://github.com/Porfolio-Javier-Lombardero/tejados-y-terrazas-madrid",
       description: t.projects.tejadosDescription,
       tags: ["JAVASCRIPT", "BOOTSTRAP.5", "SCSS"],
     },

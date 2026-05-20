@@ -29,10 +29,15 @@ export default function Contact() {
           </span>
         </div>
 
-        <button className="mx-auto flex items-center gap-2 bg-terminal-black text-surface-bright dark:bg-surface-bright dark:text-terminal-black brutalist-border px-6 py-3 font-label-caps uppercase hover:bg-infrastructure-orange dark:hover:bg-infrastructure-orange transition-colors active:translate-y-0.5 cursor-pointer">
+        <a
+          href="/javier-lombardia-cv.pdf"
+          download="Javier-Lombardia-CV.pdf"
+          type="application/pdf"
+          className="w-fit mx-auto flex items-center gap-2 bg-terminal-black text-surface-bright dark:bg-surface-bright dark:text-terminal-black brutalist-border px-6 py-3 font-label-caps uppercase hover:bg-infrastructure-orange dark:hover:bg-infrastructure-orange transition-colors active:translate-y-0.5 cursor-pointer"
+        >
           <span className="w-2 h-2 bg-infrastructure-orange block border  dark:border-terminal-black border-surface-bright"></span>
           {t.contact.downloadCv}
-        </button>
+        </a>
       </div>
     </section>
   );

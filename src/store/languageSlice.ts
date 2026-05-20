@@ -2,7 +2,7 @@ export type Language = 'en' | 'es';
 export type LanguageState = { lang: Language };
 type LanguageAction = { type: 'TOGGLE_LANGUAGE' } | { type: 'SET_LANGUAGE'; payload: Language };
 
-const initialState: LanguageState = { lang: 'en' };
+const initialState: LanguageState = { lang: 'es' };
 
 export function languageReducer(state = initialState, action: LanguageAction): LanguageState {
   switch (action.type) {

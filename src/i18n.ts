@@ -95,7 +95,7 @@ export const en: Translations = {
     mastersDescription:
       'Core front-end development fundamentals: HTML, CSS, JavaScript, React, and working knowledge of Figma.',
     wpCourse: 'WordPress Fundamentals & Core Development Course',
-    wpInstitution: 'C.E.I. - 2024',
+    wpInstitution: 'Discovery Formación - 2024',
     wpDescription:
       'WordPress CMS & Elementor Builder Specialization — Advanced CSS3 customization and template design.',
     manifestTitle: 'MANIFEST.MD',
@@ -165,7 +165,7 @@ export const es: Translations = {
     bio: 'BIO',
     projects: 'PROYECTOS',
     experience: 'EXPERIENCIA',
-    workflow: 'MI FLUJO',
+    workflow: 'MI WORKFLOW',
     cv: 'CV',
     contact: 'CONTACTO',
   },
@@ -173,31 +173,31 @@ export const es: Translations = {
     sectionTitle: 'BIO',
     renderLabel: 'RENDER: WORKSTATION.OBJ',
     liveLabel: 'EN VIVO',
-    educationTitle: 'EDUCACIÓN.MD',
+    educationTitle: 'EDUCATION.MD',
     mastersDegree: 'Máster en Desarrollo Web y Diseño UX/UI',
     mastersInstitution: 'C.E.I. - 2023',
     mastersDescription:
-      'Fundamentos del desarrollo front-end: HTML, CSS, JavaScript, React y conocimiento de Figma.',
-    wpCourse: 'Curso de Fundamentos y Desarrollo con WordPress',
-    wpInstitution: 'C.E.I. - 2024',
+      'Fundamentos del desarrollo front-end: HTML, CSS, JavaScript, React y uso básico de Figma.',
+    wpCourse: 'Curso de disño web con WordPress',
+    wpInstitution: 'Discovery Formación. - 2024',
     wpDescription:
-      'Especialización en WordPress CMS y Elementor — Personalización avanzada con CSS3 y diseño de plantillas.',
+      'Especialización en WordPress CMS y Elementor — Personalización de elementos y plantillas con CSS3.',
     manifestTitle: 'MANIFIESTO.MD',
     engineeredFor: 'DISEÑADO PARA',
     optimInterfaces: 'INTERFACES ÓPTIMAS',
     bioP1:
-      'Desarrollador front-end especializado en interfaces web de alto rendimiento, accesibles y escalables. Diseño sistemas de UI robustos con foco en el determinismo y experiencias de latencia cero, combinando precisión técnica con una genuina pasión por el diseño innovador.',
+      'Desarrollador front-end especializado en interfaces innovadoras, accesibles y escalables. Enfocado en proyectos con estructura modular, componentes altamente reutilizables y aplicaciones con latencia mínima, combinado con la creación de expriencias de usuario atractivas.',
     bioP2:
-      'Más allá del código, soy un problem-solver colaborativo que se comunica con claridad, se adapta a equipos en movimiento rápido y mantiene un alto estándar de calidad en cada etapa. Integro flujos de trabajo con IA — especialmente Claude Code — para definir agentes, skills y contextos de desarrollo mediante un enfoque Spec-Driven.',
+      'Más allá del código, soy un "problem-solver" colaborativo que se comunica con claridad, se adapta a equipos dinámicos, documentando de forma detallada cada commit del proyecto. Integro flujos de trabajo con IA — especialmente Claude Code — para definir agents, skills y otros archivos markdown para la creación de un contexto global previo orientado al Spect Driven Development durante toda la fase de desarrollo.',
     uptimeLabel: 'ACTIVO:',
   },
   projects: {
     sectionTitle: 'PROYECTOS',
     wageDescription:
-      'Una app SaaS dinámica e intuitiva con datos estadísticos de salarios frescos y útiles para profesionales de la U.E. Compara, analiza y evalúa tus ingresos y posibilidades de carrera en el mercado laboral europeo.',
+      'Una app SaaS dinámica e intuitiva con datos salariales útiles para profesionales a nivel europeo. Compara, analiza y evalúa tus ingresos y posibilidades de carrera en el mercado laboral de la U.E.',
     eachtechDescription:
-      'La tecnología avanza rápido. Mantente al día con las últimas noticias, una historia a la vez. No te quedes atrás y visita Each One Tech One.',
-    tejadosDescription: 'Web para empresa de tejados',
+      'La tecnología avanza rápido. Mantente al día con las últimas noticias. Noticas frescas cada hora. No te quedes atrás y visita Each One Tech One.',
+    tejadosDescription: 'Web para empresa de reparación y reformas de tejados',
     braberDescription: 'Web para estudio de construcción y reformas',
   },
   experience: {
@@ -205,15 +205,15 @@ export const es: Translations = {
     role1Title: 'Desarrollador Front-End Junior · Diseñador UX/UI',
     role1Date: 'FEB 2025 - ABR 2026',
     role1Description:
-      'Desarrollo web front-end. Diseño de UI en Figma. React + Vite para desarrollo orientado a componentes. Estilos con Tailwind CSS y Shadcn UI. Control de versiones con Git y Vercel para despliegue continuo. SEO on-page e integración de APIs REST con Axios.',
+      'Desarrollo web front-end. Diseño de UI en Figma. React + Vite para desarrollo orientado a webs con rendimineto optimo y escalabilidad. Estilos con Tailwind CSS y Shadcn UI, control de versiones con Git y Vercel para deploy final. SEO on-page e integración de APIs REST con Axios.',
     role2Title: 'Diseñador Web',
     role2Date: 'FEB 2024 - ENE 2025',
     role2Description:
-      'Conversión de prototipos Figma en webs en producción con WordPress CMS y Elementor. Mantenimiento continuo y mejoras de SEO on-page.',
+      'Conversión de prototipos de Figma a proyectos WordPress CMS + Elementor. Mantenimiento continuo y mejoras de SEO on-page.',
     role3Title: 'Desarrollador Front-End SaaS',
     role3Date: 'SEPT 2023 - FEB 2024',
     role3Description:
-      'Desarrollo de experiencias front-end para aplicaciones SaaS y web, trabajando directamente con clientes para traducir sus necesidades en UX/UI funcional y limpia. Enfoque API-first en todo el proyecto.',
+      'Desarrollo de experiencias front-end para aplicaciones SaaS y web, trabajando directamente con clientes para adaptar sus necesidades en UX/UI funcional y limpia.',
   },
   workflow: {
     sectionTitle: 'MI FLUJO DE TRABAJO',
@@ -222,12 +222,12 @@ export const es: Translations = {
     sectionTitle: 'INIT_CONEXIÓN',
     heading: 'DISPONIBLE PARA CONTRATAR',
     description:
-      'Actualmente disponible para roles front-end enfocados en interfaces de alto rendimiento y experiencias de usuario excepcionales en web y móvil.',
+      'Actualmente disponible para puestos front-end enfocados en interfaces de alto rendimiento y experiencias de usuario excepcionales en web y móvil.',
     location: 'España & U.E.',
     downloadCv: 'DESCARGAR CV (PDF)',
   },
   footer: {
-    copyright: '© 2024 LOMBARDERO INFRASTRUCTURE. TODOS_LOS_SISTEMAS_OPERATIVOS.',
+    copyright: '© 2025 LOMBARDERO INFRASTRUCTURE. TODOS_LOS_SISTEMAS_OPERATIVOS.',
   },
   mobileNav: {
     root: 'INICIO',

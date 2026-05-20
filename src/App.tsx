@@ -8,7 +8,7 @@ import Workflow from './components/Workflow';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import MobileNav from './components/MobileNav';
+
 import { Bio } from './components/Bio';
 
 const ThemeManager = ({ children }: { children: React.ReactNode }) => {
@@ -29,9 +29,9 @@ export default function App() {
   return (
     <Provider store={store}>
       <ThemeManager>
-        <div className="pt-20 pb-20 md:pb-0 min-h-screen">
+        <div className="pt-20 pb-20 md:pb-0 min-h-screen flex flex-col">
           <Navbar />
-          <main className="max-w-7xl mx-auto px-4 md:px-12 py-20 space-y-20">
+          <main className="grow max-w-7xl w-full mx-auto px-4 md:px-12 py-20 space-y-20">
             <Hero />
             <div id="bio"><Bio/></div>
             <div id="projects"><Projects/></div>
@@ -39,7 +39,7 @@ export default function App() {
             <div id="workflow"><Workflow/></div>
             <div id="contact"><Contact /></div>
           </main>
-          <MobileNav />
+     
           <Footer />
         </div>
       </ThemeManager>
