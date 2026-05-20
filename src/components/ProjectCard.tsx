@@ -76,12 +76,17 @@ export function ProjectCard({
         <span>{status}</span>
       </div>
       <div className="p-4 grow flex flex-col gap-4">
-        <div className="w-full h-48 bg-terminal-black brutalist-border relative overflow-hidden group">
+        <div
+          onClick={handleImageTap}
+          className="w-full h-48 bg-terminal-black brutalist-border relative overflow-hidden group cursor-pointer"
+        >
           <div
-            className={`absolute inset-0 z-10 bg-terminal-black mix-blend-luminosity opacity-0 transition-opacity cursor-pointer ${dimClass}`}
+            className={`absolute inset-0 z-10 bg-terminal-black mix-blend-luminosity opacity-0 transition-opacity pointer-events-none ${dimClass}`}
           />
           <div
-            className={`absolute inset-0 z-20 flex items-center justify-evenly text-surface-bright text-5xl opacity-0 transition-opacity ${iconsClass}`}
+            className={`absolute inset-0 z-20 flex items-center justify-evenly text-surface-bright text-5xl opacity-0 transition-opacity pointer-events-none ${iconsClass} ${
+              isActive || hasHover ? "[&>a]:pointer-events-auto" : ""
+            }`}
           >
             <a href={liveUrl} target="_blank" rel="noopener noreferrer">
               <Url />
@@ -93,8 +98,7 @@ export function ProjectCard({
           <img
             src={image}
             alt={alt}
-            onClick={handleImageTap}
-            className="w-full h-full object-cover grayscale cursor-pointer"
+            className="w-full h-full object-cover grayscale"
           />
         </div>
         <p className="font-code-sm text-terminal-black/80 dark:text-surface-bright/80">
