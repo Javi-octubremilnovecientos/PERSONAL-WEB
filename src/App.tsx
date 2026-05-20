@@ -29,9 +29,9 @@ export default function App() {
   return (
     <Provider store={store}>
       <ThemeManager>
-        <div className="pt-20 pb-20 md:pb-0 min-h-screen flex flex-col">
+        <div className="pt-20 min-h-screen flex flex-col">
           <Navbar />
-          <main className="grow max-w-7xl w-full mx-auto px-4 md:px-12 py-20 space-y-20">
+          <main className="grow max-w-7xl w-full mx-auto px-4 md:px-12 py-20 pb-24 md:pb-20 space-y-20">
             <Hero />
             <div id="bio"><Bio/></div>
             <div id="projects"><Projects/></div>

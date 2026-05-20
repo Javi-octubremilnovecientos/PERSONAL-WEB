@@ -16,7 +16,7 @@ export default function Experience() {
           {/* Role 1 */}
           <div className="flex gap-4 md:gap-8 relative z-10">
             <div className="w-6 h-6 mt-1 shrink-0 bg-surface-bright dark:bg-terminal-black brutalist-border flex items-center justify-center sm:flex">
-              <div className="w-2 h-2 bg-infrastructure-orange"></div>
+              <div className="w-2 h-2 bg-terminal-black"></div>
             </div>
             <div className="grow border-b border-dashed border-terminal-black/30 dark:border-surface-bright/30 pb-6">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-2 gap-2">
