@@ -186,17 +186,17 @@ export const es: Translations = {
     engineeredFor: 'DISEÑADO PARA',
     optimInterfaces: 'INTERFACES ÓPTIMAS',
     bioP1:
-      'Desarrollador front-end especializado en interfaces innovadoras, accesibles y escalables. Enfocado en proyectos con estructura modular, componentes altamente reutilizables y aplicaciones con latencia mínima, combinado con la creación de expriencias de usuario atractivas.',
+      "Desarrollador front-end especializado en interfaces innovadoras, accesibles y escalables. Gusto por el diseño de UI's robustas y atractivas con componentes altamente reutilizables y aplicaciones con latencia mínima combinando expriencias de usuario intuitivas y sencillas con sistemas de diseño elegantes y personales.",
     bioP2:
-      'Más allá del código, soy un "problem-solver" colaborativo que se comunica con claridad, se adapta a equipos dinámicos, documentando de forma detallada cada commit del proyecto. Integro flujos de trabajo con IA — especialmente Claude Code — para definir agents, skills y otros archivos markdown para la creación de un contexto global previo orientado al Spect Driven Development durante toda la fase de desarrollo.',
+      'Más allá del código, soy un "problem-solver" colaborativo que se comunica con claridad y se adapta a equipos dinámicos, facilitando mi integración como frontend de forma transversal en todas las fases del proyecto. Integro flujos de trabajo con IA — especialmente Claude Code — para definir agents, skills y otros archivos markdown para la creación de un contexto global previo, implementando metodología Spect Driven Development durante todas las etapas del desarrollo.',
     uptimeLabel: 'ACTIVO:',
   },
   projects: {
     sectionTitle: 'PROYECTOS',
     wageDescription:
-      'Una app SaaS dinámica e intuitiva con datos salariales útiles para profesionales a nivel europeo. Compara, analiza y evalúa tus ingresos y posibilidades de carrera en el mercado laboral de la U.E.',
+      'Una  SaaS app dinámica e intuitiva con datos salariales útiles para todo tipo de profesionales a nivel europeo. Compara, analiza y evalúa tus ingresos y posibilidades de carrera en el mercado laboral de la U.E.',
     eachtechDescription:
-      'La tecnología avanza rápido. Mantente al día con las últimas noticias. Noticas frescas cada hora. No te quedes atrás y visita Each One Tech One.',
+      'La tecnología avanza rápido. Mantente al día con las últimas noticias. Noticas frescas y actuales cada hora. No te quedes atrás y visita Each One Tech One.',
     tejadosDescription: 'Web para empresa de reparación y reformas de tejados',
     braberDescription: 'Web para estudio de construcción y reformas',
   },
@@ -209,7 +209,7 @@ export const es: Translations = {
     role2Title: 'Diseñador Web',
     role2Date: 'FEB 2024 - ENE 2025',
     role2Description:
-      'Conversión de prototipos de Figma a proyectos WordPress CMS + Elementor. Mantenimiento continuo y mejoras de SEO on-page.',
+      'Conversión de prototipos de Figma a proyectos WordPress CMS + Elementor.Personalización de temas y plantillas integrando CSS3 de forma manual. Mantenimiento continuo y mejoras de SEO on-page.',
     role3Title: 'Desarrollador Front-End SaaS',
     role3Date: 'SEPT 2023 - FEB 2024',
     role3Description:

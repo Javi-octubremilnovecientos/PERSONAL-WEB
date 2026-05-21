@@ -6,7 +6,7 @@ export default function Experience() {
 
   return (
     <section className="space-y-12">
-      <SectionHeader id="004" title={t.experience.sectionTitle} />
+      <SectionHeader id="003" title={t.experience.sectionTitle} />
 
       <div className="brutalist-border bg-surface-bright dark:bg-terminal-black p-4 md:p-8 relative">
         {/* Vertical Line */}

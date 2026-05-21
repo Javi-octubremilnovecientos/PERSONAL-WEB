@@ -102,7 +102,7 @@ export const Bio = () => {
               </span>
             </div>
           </div>
-
+       <h4 className="mb-3 ml-5 md:ml-8 text-terminal-black/70 font-label-caps" >MAIN_SKILLS.md</h4>
           {/* METRICS 2x2 */}
           <div className="grid grid-cols-2 border-t border-terminal-black/30 dark:border-surface-bright/30 bg-surface-bright/20 dark:bg-terminal-black/10 gap-px">
             <div className="bg-paper-off-white dark:bg-terminal-black px-4 md:px-6 py-5 min-h-18 border-b border-r">
