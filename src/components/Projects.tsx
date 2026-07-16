@@ -25,7 +25,7 @@ export default function Projects() {
       image: WageImage,
       alt: "Wage Vantage UI",
       liveUrl: "https://www.wagevantage.info/",
-      repoUrl: "https://github.com/Porfolio-Javier-Lombardero/WAGE-VANTAGE-APP",
+      repoUrl: "https://github.com/Javier-Lombard/wage-vantage",
       description: t.projects.wageDescription,
       tags: ["React", "TypeScript", "PostgreSQL"],
     },
